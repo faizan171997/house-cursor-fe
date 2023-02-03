@@ -54,7 +54,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div class="w-800 centered">
+        <div class="container-graph centered">
           <h1>House Cursor</h1>
           {endpoints.communities.map(community =>
             <div class="p-1">

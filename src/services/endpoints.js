@@ -1,5 +1,5 @@
 export default {
-    base_url: 'http://localhost:8080',
+    base_url: 'https://1fec-2601-646-8200-2960-291f-2195-8317-5c03.ngrok.io',
     communities: [
         {
             id: 'avalon-morrison-park',
@@ -22,9 +22,19 @@ export default {
             endpoint: '/san-fernando-101'
         },
         {
+            id: 'residences-360',
+            label: '360 Residences',
+            endpoint: '/residences-360'
+        },
+        {
             id: 'south-33',
             label: '33 South',
             endpoint: '/south-33'
+        },
+        {
+            id: 'centerra',
+            label: 'Centerra',
+            endpoint: '/centerra'
         }
     ],
     getEndpoint(path) {

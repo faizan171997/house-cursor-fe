@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+.container-graph {
+  max-width: 800px;
+}
+
+/* ---------------------------------------- */
+
 .centered {
   margin: 0 auto;
 }
